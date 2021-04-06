@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import hexToRgba from 'hex-to-rgba';
+import hexToRgba from './hextorgb';
 
 @Component({
   selector: 'app-root',
