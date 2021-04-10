@@ -1,9 +1,12 @@
 name: Try installing Node dependencies
-on: [push,pull_request]
+on:
   push:
-    branches: [master]
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 jobs:
-if: github.event.pull_request.merged == true
   build:
     runs-on: ubuntu-latest
     steps:
