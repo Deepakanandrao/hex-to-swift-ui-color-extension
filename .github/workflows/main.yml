@@ -1,7 +1,5 @@
 name: Try installing Node dependencies
-on:
-- push
-- pull_request
+on: [push,pull_request]
   push:
     branches: [master]
 jobs:
